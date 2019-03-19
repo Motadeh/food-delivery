@@ -6,10 +6,12 @@ import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import "./PickupMadeEasy.css";
+import * as logo from "../../Assets/1261.png";
+import * as playstore from "../../Assets/google-play-badge-en.png";
 
 function TabContainer(props) {
   return (
-    <Typography component="div" style={{ padding: 8 * 3 }}>
+    <Typography component="div">
       {props.children}
     </Typography>
   );
@@ -27,9 +29,7 @@ const styles = theme => ({
 });
 
 class PickupMadeEasy extends Component {
-  state = {
-    value: 0
-  };
+  state = {};
 
   handleChange = (event, value) => {
     this.setState({ value });
@@ -41,37 +41,39 @@ class PickupMadeEasy extends Component {
 
     return (
       <div className="App">
-        <div className={classes.root}>
-        fvgf
-          <AppBar position="static">
-            <Tabs value={value} onChange={this.handleChange}>
-              <Tab label="Item One" />
-              <Tab label="Item Two" />
-              <Tab label="Item Three" />
-            </Tabs>
-          </AppBar>
-          {value === 0 && <TabContainer>Item One</TabContainer>}
-          {value === 1 && <TabContainer>Item Two</TabContainer>}
-          {value === 2 && <TabContainer>Item Three</TabContainer>}
-        </div>
-        {/* <div className="text">
-          <div>Pickup, Delivery and Food Ordering Made Easy</div>
-          <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            egestas feugiat felis. Mauris lobortis nisl nec mi convallis
-            finibus. Nulla facilisi. Donec urna orci, placerat vestibulum sapien
-            eget, laoreet egestas elit.
+        <div className="deliver">
+          <div className="text">
+            <div className="pickup" style={{ maxWidth: "503px" }}>
+              <p>Pickup, Delivery</p>
+              <p>and Food Ordering</p>
+              <p>Made Easy</p>
+            </div>
+            <div className="other" style={{ maxWidth: "602px" }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              egestas feugiat felis. Mauris lobortis nisl nec mi convallis
+              finibus. Nulla facilisi. Donec urna orci, placerat vestibulum
+              sapien eget, laoreet egestas elit.
+            </div>
+
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+
+            <div className="available">Now Available On Android</div>
+            <div>
+              <img src={playstore} />
+            </div>
           </div>
-          <div>Pickup, Delivery and Food Ordering Made Easy</div>
-        </div> */}
-        <div className="img">hbh</div>
+          <div style={{ size: "20px" }}>
+            <img src={logo} height="580px" />
+          </div>
+        </div>
       </div>
     );
   }
 }
 
-SimpleTabs.propTypes = {
-  classes: PropTypes.object.isRequired,
+TabContainer.propTypes = {
+  classes: PropTypes.object.isRequired
 };
 
 export default withStyles(styles)(PickupMadeEasy);

@@ -1,0 +1,36 @@
+
+.App {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    margin-top: 100px;
+    margin-left: 200px;
+    color: #FFFFFF;
+}
+
+.deliver {
+    display: flex
+}
+
+.other {
+    font-family: Lato;
+    font-size: 18px;
+}
+
+.pickup {
+    font-family: Montserrat;
+    font-weight: 800px;
+    font-size: 50px;
+    font-style: ExtraBold;
+}
+
+.deliver{
+    background-color: #5C0426;
+}
+
+.available {
+    font-family: Montserrat;
+    color: #FFCF27
+}
