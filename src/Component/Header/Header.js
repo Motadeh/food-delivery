@@ -7,6 +7,7 @@ import PropTypes from "prop-types";
 import React, { Component } from "react";
 import "./Header.css";
 import PickupMadeEasy from "../PickupMadeEasy/PickupMadeEasy";
+import Deliver from "../Deliver/Deliver";
 
 function TabContainer(props) {
   return (
@@ -23,7 +24,7 @@ TabContainer.propTypes = {
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    backgroundColor: '#5C0317'
+    // backgroundColor: '#5C0317'
   }
 });
 
@@ -54,7 +55,7 @@ class Header extends Component {
               <Tab label="Become A Dispatcher" />
             </Tabs>
           </AppBar>
-          {value === 0 && <TabContainer><PickupMadeEasy /></TabContainer>}
+          {value === 0 && <TabContainer><Deliver /></TabContainer>}
           {value === 1 && <TabContainer>Courier Services</TabContainer>}
           {value === 2 && <TabContainer>Food Delivery</TabContainer>}
           {value === 3 && <TabContainer>How it works</TabContainer>}
