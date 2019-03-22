@@ -2,14 +2,13 @@ import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import "./Deliver.css";
+import "./DeliverFooter.css";
 import PickupMadeEasy from "../PickupMadeEasy/PickupMadeEasy";
 import AsTrustedBy from "../AsTrustedBy/AsTrustedBy";
 import Phone from "../Phone/Phone";
 import NoMatterTheSize from "../NoMatterTheSize/NoMatterTheSize";
 import MakeMoney from "../MakeMoney/MakeMoney";
 import WhatUsers from "../WhatUsers/WhatUsers";
-import DeliverFooter from "../DeliverFooter/DeliverFooter";
 
 const styles = theme => ({
   root: {
@@ -18,7 +17,7 @@ const styles = theme => ({
   }
 });
 
-class Deliver extends Component {
+class DeliverFooter extends Component {
   state = {};
 
   render() {
@@ -26,31 +25,12 @@ class Deliver extends Component {
     const { value } = this.state;
 
     return (
-      <div className="Deliverheader">
-        <div>
-          <PickupMadeEasy />
-        </div>
-        <div>
-          <AsTrustedBy />
-        </div>
-        <div>
-          <Phone />
-        </div>
-        <div>
-          <NoMatterTheSize />
-        </div>
-        <div>
-          <MakeMoney />
-        </div>
-        <div>
-          <WhatUsers />
-        </div>
-        <div>
-          <DeliverFooter />
-        </div>
+      <div className="Deliverfooter">
+        <div>Deliver</div>
+        <div>bhbjbj</div>
       </div>
     );
   }
 }
 
-export default withStyles(styles)(Deliver);
+export default withStyles(styles)(DeliverFooter);

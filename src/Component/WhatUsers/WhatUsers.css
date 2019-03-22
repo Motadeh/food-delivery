@@ -1,0 +1,63 @@
+.whatuserstext1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    font-family: "Roboto Slab";
+    font-size: 38px;
+    color: #5C0426;
+}
+
+.users {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.user1, .user2 {
+    max-width: 650px;
+    /* max-height: 220px; */
+    /* overflow: hidden; */
+    font-family: Lato;
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.user1text, .user2text {
+    max-width: 588px;
+    max-height: 220px;
+    overflow: hidden;
+}
+
+.user1 {
+    margin-right: 20px
+}
+
+.user1texta, .user2texta {
+    font-family: Montserrat;
+    font-size: 28px;
+    color: #000000;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto Slab";
+    font-size: 38px;
+    color: #5C0426;
+    margin-top: 120px;
+}
+
+.firsthandinfo {
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #676768;
+    margin-top: 36px;
+}
+
+.firsthandinfoemail {
+    display: flex;
+    justify-content: center;
+}

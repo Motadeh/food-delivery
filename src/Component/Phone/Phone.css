@@ -1,0 +1,24 @@
+.phone {
+    background-color: #000;
+    display: flex;
+    max-width: 100vw;
+}
+
+.phonetext {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    max-width: 619px;
+}
+
+.middle {
+    max-width: 619px;
+    min-width: 619px;
+    margin-left: 40px;
+    margin-top: 245px
+}
+
+.phone1 {
+    margin-left: 250px;
+}

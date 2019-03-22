@@ -1,0 +1,8 @@
+.Deliverfooter {
+    display: flex;
+    justify-content: space-around;
+    background-color: #121212;
+    height: 670px;
+    max-height: 670px;
+    color: #676768;
+}
