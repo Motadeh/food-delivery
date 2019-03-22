@@ -21,7 +21,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://motadeh.github.io/food-delivery/",
+  "homepage": "https://motadeh.github.io/food-delivery",
   "browserslist": [
     ">0.2%",
     "not dead",
