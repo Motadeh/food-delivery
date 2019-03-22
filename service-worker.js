@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Motadeh/food-delivery/precache-manifest.9ae2ca537880d70893dd7df20d2e7e9f.js"
+  "/food-delivery/precache-manifest.a19b7278ae096cc3fe7d0ab2f4f59898.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Motadeh/food-delivery/index.html", {
+workbox.routing.registerNavigationRoute("/food-delivery/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
