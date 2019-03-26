@@ -1,14 +1,10 @@
 import { withStyles } from "@material-ui/core/styles";
 import React, { Component } from "react";
 import "./WhatUsers.css";
-import * as Delivery from "../../Assets/delivery.png";
-import * as Guarantee from "../../Assets/guarantee.png";
-import * as Meal from "../../Assets/meal.png";
 import * as logo from "../../Assets/driver.png";
 import Avatar from "@material-ui/core/Avatar";
 import Grid from "@material-ui/core/Grid";
 import PropTypes from "prop-types";
-import TextField from "@material-ui/core/TextField";
 
 const styles = theme => ({
   root: {

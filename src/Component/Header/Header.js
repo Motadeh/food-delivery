@@ -6,7 +6,6 @@ import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import "./Header.css";
-import PickupMadeEasy from "../PickupMadeEasy/PickupMadeEasy";
 import Deliver from "../Deliver/Deliver";
 
 function TabContainer(props) {

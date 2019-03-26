@@ -9,7 +9,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 WebFont.load({
   google: {
-    families: ["Montserrat:800", "Roboto Slab:400", "Lato:400"]
+    families: ["Montserrat:400,800", "Roboto Slab:400", "Lato:400"]
   }
 });
 
