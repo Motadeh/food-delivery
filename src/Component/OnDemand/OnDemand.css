@@ -1,0 +1,92 @@
+.odheader {
+  justify-items: center;
+}
+
+.odimg {
+  display: flex;
+  justify-content: center;
+  /* margin: 20px; */
+}
+
+.odimg2 {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 50px; */
+}
+
+.odimgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+  margin-top: 50px;
+  font-family: Lato;
+  font-size: 18px;
+}
+
+.odimgs2 {
+  /* display: flex; */
+  justify-content: center;
+  /* margin: 100px; */
+  margin-top: 50px;
+  margin-right: 24px;
+}
+
+.odcontent {
+  align-content: center;
+}
+
+.ondemandpickup {
+  font-size: 38px;
+  /* font-weight: 400; */
+  font-family: "Roboto Slab";
+  color: #5c0426;
+  justify-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 766px;
+  line-height: 50px;
+}
+
+.odlorem {
+  font-family: Lato;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.odtext1a {
+  font-family: "Roboto Slab";
+  font-size: 28px;
+  color: #5C0426;
+  line-height: 34px;
+  margin-top: 71px;
+  max-width: 233px;
+}
+
+.odtext1b {
+  font-family: "Roboto Slab";
+  font-size: 28px;
+  color: #5C0426;
+  line-height: 34px;
+  margin-top: 71px;
+  width: 338px;
+  max-width: 338px;
+}
+
+.odtext1c {
+  font-family: "Roboto Slab";
+  font-size: 28px;
+  color: #5C0426;
+  line-height: 34px;
+  margin-top: 71px;
+  max-width: 270px;
+}
+
+.odtext2 {
+  font-family: Lato;
+  font-size: 18px;
+  color: #676768;
+  margin-top: 25px;
+}

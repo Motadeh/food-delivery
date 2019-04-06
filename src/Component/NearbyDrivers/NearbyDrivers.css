@@ -1,0 +1,48 @@
+.AppNearbyDrivers {
+      background-image: url("../../Assets/Mask_Group_30.png");
+      height: 698px;
+      max-height: 698px;
+}
+
+.NearbyDrivers {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.NearbyDriverstext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.find {
+    font-family: Montserrat;
+    font-weight: 800px;
+    font-size: 50px;
+    /* font-style: ExtraBold; */
+    max-width: 966px;
+    max-height: 122px;
+    line-height: 61px;
+    margin-top: 138px;
+}
+
+.Nigeria {
+    font-family: "Roboto Slab";
+    /* font-weight: 800px; */
+    font-size: 40px;
+    /* font-style: ExtraBold; */
+    max-width: 568px;
+    max-height: 106px;
+    line-height: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    color: #FFCF27;
+}
+
+.pickupinfo {
+    display: flex;
+    justify-content: center;
+}

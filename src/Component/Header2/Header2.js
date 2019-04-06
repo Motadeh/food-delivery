@@ -5,9 +5,11 @@ import Tabs from "@material-ui/core/Tabs";
 import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import "./Header.css";
+import "./Header2.css";
 import Deliver from "../Deliver/Deliver";
 import CourierService from "../CourierService/CourierService";
+import NearbyDrivers from "../NearbyDrivers/NearbyDrivers";
+import CourierServiceHome from "../CourierServiceHome/CourierServiceHome";
 
 
 function TabContainer(props) {
@@ -25,7 +27,7 @@ const styles = theme => ({
   }
 });
 
-class Header extends Component {
+class Header2 extends Component {
   state = {
     value: 0
   };
@@ -43,21 +45,17 @@ class Header extends Component {
         <div className={classes.root}>
           <AppBar
             position="static"
-            style={{ backgroundColor: "#5C0317", alignItems: "center" }}
+            style={{ backgroundColor: "#FFFFFF", color: "#5C0426", alignItems: "flex-start", paddingLeft: "230px" }}
           >
             <Tabs value={value} onChange={this.handleChange}>
-              <Tab label="Deliver" />
-              <Tab label="Courier Services" />
-              <Tab label="Food Delivery" />
-              <Tab label="How it works" />
-              <Tab label="FAQs" />
-              <Tab label="Sign In" />
-              <Tab label="Become A Dispatcher" />
+              <Tab label="Home" />
+              <Tab label="Payment Methods" />
+              <Tab label="History" />
             </Tabs>
           </AppBar>
           {value === 0 && (
             <TabContainer>
-              <Deliver />
+              <CourierServiceHome />
             </TabContainer>
           )}
           {value === 1 && (
@@ -66,18 +64,14 @@ class Header extends Component {
             </TabContainer>
           )}
           {value === 2 && <TabContainer>Food Delivery</TabContainer>}
-          {value === 3 && <TabContainer>How it works</TabContainer>}
-          {value === 4 && <TabContainer>FAQs</TabContainer>}
-          {value === 5 && <TabContainer>Sign In</TabContainer>}
-          {value === 6 && <TabContainer>Become A Dispatcher</TabContainer>}
         </div>
       </div>
     );
   }
 }
 
-Header.propTypes = {
+Header2.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(Header);
+export default withStyles(styles)(Header2);

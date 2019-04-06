@@ -1,0 +1,16 @@
+.requestdiv {
+  display: flex;
+}
+
+.form {
+  margin-top: 197px;
+  margin-left: 350px;
+}
+
+.textb {
+  font-family: Lato;
+  font-size: 34px;
+  max-width: 284px;
+  line-height: 41px;
+  color: #676768;
+}
