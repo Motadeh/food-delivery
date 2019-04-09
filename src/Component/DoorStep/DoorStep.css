@@ -1,0 +1,40 @@
+.AppDoorStep {
+  background-image: url("../../Assets/Mask_Group_4.png");
+  height: 698px;
+  max-height: 698px;
+  width: 100vw;
+  background-size: 100vw;
+  background-repeat: no-repeat
+}
+
+.DoorStep {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.DoorSteptext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.food {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Montserrat;
+  font-weight: 800px;
+  font-size: 50px;
+  /* font-style: ExtraBold; */
+  max-width: 605px;
+  max-height: 122px;
+  line-height: 61px;
+  margin-top: 138px;
+  color: #420000
+}
+
+.pickupinfo {
+  display: flex;
+  justify-content: center;
+}

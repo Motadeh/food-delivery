@@ -8,6 +8,7 @@ import React, { Component } from "react";
 import "./Header.css";
 import Deliver from "../Deliver/Deliver";
 import CourierService from "../CourierService/CourierService";
+import FoodDelivery from "../FoodDelivery/FoodDelivery";
 
 
 function TabContainer(props) {
@@ -65,7 +66,11 @@ class Header extends Component {
               <CourierService />
             </TabContainer>
           )}
-          {value === 2 && <TabContainer>Food Delivery</TabContainer>}
+          {value === 2 && (
+            <TabContainer>
+              <FoodDelivery />
+            </TabContainer>
+          )}
           {value === 3 && <TabContainer>How it works</TabContainer>}
           {value === 4 && <TabContainer>FAQs</TabContainer>}
           {value === 5 && <TabContainer>Sign In</TabContainer>}

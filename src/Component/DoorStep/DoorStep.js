@@ -2,7 +2,7 @@ import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import "./NearbyDrivers.css";
+import "./DoorStep.css";
 
 function TabContainer(props) {
   return <Typography component="div">{props.children}</Typography>;
@@ -31,17 +31,14 @@ class NearbyDrivers extends Component {
     const { value } = this.state;
 
     return (
-      <div className="AppNearbyDrivers">
-        <div className="NearbyDrivers">
-          <div className="NearbyDriverstext">
-            <div className="find">
-              Find Nearby Drivers For Your Pickup and Delivery Needs
+      <div className="AppDoorStep">
+        <div className="DoorStep">
+          <div className="DoorSteptext">
+            <div className="food">
+              Food Delivery Directly To Your Doorstep{" "}
               {/* <p>Pickup, Delivery</p>
               <p>and Food Ordering</p>
               <p>Made Easy</p> */}
-            </div>
-            <div className="Nigeria">
-              Nigeria’s No 1 On-demand Delivery and Pickup Platform
             </div>
 
             <div>&nbsp;</div>

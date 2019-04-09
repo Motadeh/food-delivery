@@ -5,9 +5,10 @@ import Tabs from "@material-ui/core/Tabs";
 import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import "./Header2.css";
+import "./Header3.css";
 import CourierService from "../CourierService/CourierService";
 import CourierServiceHome from "../CourierServiceHome/CourierServiceHome";
+import FoodDeliveryHome from "../FoodDeliveryHome/FoodDeliveryHome";
 
 
 function TabContainer(props) {
@@ -25,7 +26,7 @@ const styles = theme => ({
   }
 });
 
-class Header2 extends Component {
+class Header3 extends Component {
   state = {
     value: 0
   };
@@ -48,12 +49,12 @@ class Header2 extends Component {
             <Tabs value={value} onChange={this.handleChange}>
               <Tab label="Home" />
               <Tab label="Payment Methods" />
-              <Tab label="History" />
+              <Tab label="My Orders" />
             </Tabs>
           </AppBar>
           {value === 0 && (
             <TabContainer>
-              <CourierServiceHome />
+              <FoodDeliveryHome />
             </TabContainer>
           )}
           {value === 1 && (
@@ -68,8 +69,8 @@ class Header2 extends Component {
   }
 }
 
-Header2.propTypes = {
+Header3.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(Header2);
+export default withStyles(styles)(Header3);
