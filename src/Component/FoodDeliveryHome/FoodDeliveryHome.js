@@ -10,6 +10,9 @@ import MiniWhatUsers from "../MiniWhatUsers/MiniWhatUsers";
 import RequestBoxit from "../RequestBoxit/RequestBoxit";
 import DoorStep from "../DoorStep/DoorStep";
 import Phone from "../Phone/Phone";
+import Restaurant from "../Restaurant/Restaurant";
+import MiniRestaurant from "../MiniRestaurant/MiniRestaurant";
+import HowItWorks from "../HowItWorks/HowItWorks";
 
 const styles = theme => ({
   root: {
@@ -34,10 +37,10 @@ class FoodDeliveryHome extends Component {
           <Restaurant />
         </div>
         <div>
-          <DownloadOurApp />
+          <HowItWorks />
         </div>
         <div>
-          <RequestBoxit />
+          <MiniRestaurant />
         </div>
 
         <div>&nbsp;</div>

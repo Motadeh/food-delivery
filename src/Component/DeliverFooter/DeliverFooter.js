@@ -28,7 +28,7 @@ class DeliverFooter extends Component {
         <div className="Deliverfooter">
           <div className="Deliverfooter2">
             <div>
-              <img src={Delivery} />
+              <img src={Delivery} id='footerdeliver' />
             </div>
             <div className="boxit">
               <div className="AboutBoxit">About Box-it</div>
@@ -45,7 +45,7 @@ class DeliverFooter extends Component {
               <div className="Careers">Driver App</div>
             </div>
             <div className="boxit" style={{ maxWidth: "268px" }}>
-              <img src={playstore} />
+              <img src={playstore} id='footerplaystore' />
             </div>
           </div>
           <div className="bottomfooter">

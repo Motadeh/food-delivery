@@ -19,7 +19,7 @@ const styles = theme => ({
   }
 });
 
-class NearbyDrivers extends Component {
+class DoorStep extends Component {
   state = {};
 
   handleChange = (event, value) => {
@@ -99,4 +99,4 @@ TabContainer.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(NearbyDrivers);
+export default withStyles(styles)(DoorStep);

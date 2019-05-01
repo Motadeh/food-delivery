@@ -47,7 +47,7 @@ class NearbyDrivers extends Component {
             <div>&nbsp;</div>
             <div>&nbsp;</div>
 
-            <div className="pickupinfo">
+            {/* <div className="pickupinfo">
               <input
                 type="text"
                 placeholder="Pickup Address"
@@ -90,7 +90,7 @@ class NearbyDrivers extends Component {
               >
                 Request BoxIt
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

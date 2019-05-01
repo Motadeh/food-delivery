@@ -37,56 +37,20 @@ class RequestBoxit extends Component {
         <div className="requestdiv">
           <div className="form">
             <div className="textb">Request for a BoxIt Delivery Driver</div>
-            <div>
-              <input
-                type="text"
-                placeholder="Pickup Address"
-                style={{
-                  width: "463px",
-                  height: "70px",
-                  borderRadius: "40px 40px 40px 40px",
-                  marginTop: "44px",
-                  fontSize: "26px",
-                  color: "#AAAAAA",
-                  textAlign: "center"
-                }}
-              />
+            <div className="texta">
+              <input id="text" type="text" placeholder="Pickup Address" />
             </div>
-            <div>
-              <input
-                type="text"
-                placeholder="Drop Address"
-                style={{
-                  width: "463px",
-                  height: "70px",
-                  borderRadius: "40px 40px 40px 40px",
-                  marginTop: "44px",
-                  fontSize: "26px",
-                  color: "#AAAAAA",
-                  textAlign: "center"
-                }}
-              />
+            <div className="texta">
+              <input id="text" type="text" placeholder="Drop Address" />
             </div>
-            <div>
-              <button
-                type="button"
-                style={{
-                  width: "463px",
-                  height: "70px",
-                  borderRadius: " 40px 40px 40px 40px ",
-                  marginTop: "44px",
-                  backgroundColor: "#5C0426",
-                  // fontFamily: Montserrat,
-                  fontSize: "26px",
-                  color: "#FFFFFF"
-                }}
-              >
+            <div className="texta">
+              <button id="rbutton" type="button">
                 Request BoxIt
               </button>
             </div>
           </div>
-          <div>
-            <img src={logo} />
+          <div className='map'>
+            <img src={logo} id='map' />
           </div>
         </div>
         <div>

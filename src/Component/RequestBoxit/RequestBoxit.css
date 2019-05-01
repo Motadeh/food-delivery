@@ -1,5 +1,7 @@
 .requestdiv {
   display: flex;
+  width: 100vw;
+  max-width: 100vw;
 }
 
 .form {
@@ -13,4 +15,86 @@
   max-width: 284px;
   line-height: 41px;
   color: #676768;
+}
+
+#text {
+  width: 463px;
+  height: 70px;
+  border-radius: 40px 40px 40px 40px;
+  margin-top: 44px;
+  font-size: 26px;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+#rbutton {
+  width: 463px;
+  height: 70px;
+  border-radius: 40px 40px 40px 40px;
+  margin-top: 44px;
+  font-size: 26px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #5c0426;
+}
+
+@media screen and (max-width: 1260px) {
+  .requestdiv {
+    display: inline-block;
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: center;
+    margin-right: center;
+  }
+
+  .form {
+    margin-top: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .textb {
+    text-align: center;
+    font-size: 8vw;
+    width: 80vw;
+    max-width: 100vw;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15vw;
+    line-height: 7vw;
+  }
+
+  .texta {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #text {
+    width: 60vw;
+    height: 70px;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 44px;
+    font-size: 16px;
+    color: #aaaaaa;
+    text-align: center;
+  }
+
+  #rbutton {
+    width: 60vw;
+    height: 70px;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 44px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #5c0426;
+  }
+
+  .map {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

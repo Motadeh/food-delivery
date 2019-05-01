@@ -1,7 +1,4 @@
-import AppBar from "@material-ui/core/AppBar";
-import { withStyles } from "@material-ui/core/styles";
-import Tab from "@material-ui/core/Tab";
-import Tabs from "@material-ui/core/Tabs";
+// import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import React, { Component } from "react";
@@ -9,17 +6,13 @@ import "./PickupMadeEasy.css";
 import * as logo from "../../Assets/1261.png";
 import * as playstore from "../../Assets/google-play-badge-en.png";
 
-function TabContainer(props) {
-  return (
-    <Typography component="div">
-      {props.children}
-    </Typography>
-  );
-}
+// function TabContainer(props) {
+//   return <Typography component="div">{props.children}</Typography>;
+// }
 
-TabContainer.propTypes = {
-  children: PropTypes.node.isRequired
-};
+// TabContainer.propTypes = {
+//   children: PropTypes.node.isRequired
+// };
 
 const styles = theme => ({
   root: {
@@ -44,9 +37,9 @@ class PickupMadeEasy extends Component {
         <div className="deliver">
           <div className="text">
             <div className="pickup" style={{ maxWidth: "503px" }}>
-              <p>Pickup, Delivery</p>
-              <p>and Food Ordering</p>
-              <p>Made Easy</p>
+              Pickup, Delivery
+              and Food Ordering
+              Made Easy
             </div>
             <div className="other" style={{ maxWidth: "602px" }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -60,11 +53,11 @@ class PickupMadeEasy extends Component {
 
             <div className="available">Now Available On Android</div>
             <div>
-              <img src={playstore} />
+              <img src={playstore} id="playstore" />
             </div>
           </div>
-          <div style={{ size: "20px" }}>
-            <img src={logo} height="580px" />
+          <div className='pickupimg'>
+            <img src={logo} id='pickupimg' />
           </div>
         </div>
       </div>
@@ -72,8 +65,8 @@ class PickupMadeEasy extends Component {
   }
 }
 
-TabContainer.propTypes = {
-  classes: PropTypes.object.isRequired
-};
+// TabContainer.propTypes = {
+//   classes: PropTypes.object.isRequired
+// };
 
-export default withStyles(styles)(PickupMadeEasy);
+export default PickupMadeEasy;

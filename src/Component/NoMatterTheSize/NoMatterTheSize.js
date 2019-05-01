@@ -29,13 +29,13 @@ class NoMatterTheSize extends Component {
           </div>
           <div className="img">
             <div className="imgs">
-              <img src={bike} height="258px" />
+              <img src={bike} />
             </div>
             <div className="imgs">
-              <img src={car} height="258px" />
+              <img src={car} />
             </div>
             <div className="imgs">
-              <img src={van} height="258px" />
+              <img src={van} />
             </div>
           </div>
           <div className="ondelivery" style={{ maxWidth: "454px" }}>

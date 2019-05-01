@@ -1,48 +1,81 @@
 .AppNearbyDrivers {
-      background-image: url("../../Assets/Mask_Group_30.png");
-      height: 698px;
-      max-height: 698px;
+  background-image: url("../../Assets/Mask_Group_30.png");
+  height: 150vw;
+  max-height: 698px;
+  background-size: 100vw;
+  background-repeat: no-repeat;
 }
 
 .NearbyDrivers {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .NearbyDriverstext {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
 }
 
 .find {
-    font-family: Montserrat;
-    font-weight: 800px;
-    font-size: 50px;
-    /* font-style: ExtraBold; */
-    max-width: 966px;
-    max-height: 122px;
-    line-height: 61px;
-    margin-top: 138px;
+  font-family: Montserrat;
+  font-weight: 800px;
+  font-size: 50px;
+  /* font-style: ExtraBold; */
+  max-width: 966px;
+  max-height: 122px;
+  line-height: 61px;
+  margin-top: 138px;
 }
 
 .Nigeria {
-    font-family: "Roboto Slab";
-    /* font-weight: 800px; */
-    font-size: 40px;
-    /* font-style: ExtraBold; */
-    max-width: 568px;
-    max-height: 106px;
-    line-height: 53px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 35px;
-    color: #FFCF27;
+  font-family: "Roboto Slab";
+  /* font-weight: 800px; */
+  font-size: 40px;
+  /* font-style: ExtraBold; */
+  max-width: 568px;
+  max-height: 106px;
+  line-height: 53px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  color: #ffcf27;
 }
 
 .pickupinfo {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1260px) {
+  .AppNearbyDrivers {
+    background-image: url("../../Assets/Mask_Group_30.png");
+    height: 50vw;
+    max-height: 150vw;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    /* overflow: hidden;  */
+  }
+  .find {
+    font-size: 5vw;
+    /* max-width: 150vw; */
+    max-height: 122px;
+    line-height: 5vw;
+    margin-top: 8px;
+  }
+  .Nigeria {
+    font-family: "Roboto Slab";
+    /* font-weight: 800px; */
+    font-size: 5vw;
+    /* font-style: ExtraBold; */
+    max-width: 60vw;
+    max-height: 106px;
+    line-height: 6vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+    color: #ffcf27;
+  }
 }

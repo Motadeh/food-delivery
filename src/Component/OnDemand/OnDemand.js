@@ -29,7 +29,7 @@ class OnDemand extends Component {
         <div className="odcontent">
           <div className="odimg">
             <div className="odimgs">
-              <img src={driver} height="70px" />
+              <img src={driver} id="driver" />
               <div
                 style={{
                   maxWidth: "96px",
@@ -41,7 +41,7 @@ class OnDemand extends Component {
               </div>
             </div>
             <div className="odimgs">
-              <img src={place} height="70px" />
+              <img src={place} id='place' />
               <div
                 style={{
                   maxWidth: "131px",
@@ -53,7 +53,7 @@ class OnDemand extends Component {
               </div>
             </div>
             <div className="odimgs">
-              <img src={smartphone} height="70px" />
+              <img src={smartphone} id='smartphone' />
               <div
                 style={{
                   maxWidth: "112px",
@@ -61,7 +61,7 @@ class OnDemand extends Component {
                   marginLeft: "32.08px"
                 }}
               >
-                Over 100 Daily Request{" "}
+                Over 100 Daily Request
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ class OnDemand extends Component {
           <div className="odimg2">
             <div className="odimgs2" style={{ maxWidth: "350px" }}>
               <div className="odtext1a">Enter Pickup and Delivery Address</div>
-              <div className="text2" style={{ maxWidth: "350px" }}>
+              <div className="odtext2" style={{ maxWidth: "350px" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 egestas feugiat felis. Mauris lobortis nisl nec mi convallis
                 finibus. Nulla facilisi. Donec urna orci, placerat vestibulum
@@ -91,7 +91,7 @@ class OnDemand extends Component {
               </div>
             </div>
 
-            <div className="odimgs2">
+            <div className="odimgs2" style={{ maxWidth: "350px" }}>
               <div className="odtext1b">
                 Select Nearest And Preferred Dispatcher
               </div>
@@ -103,7 +103,7 @@ class OnDemand extends Component {
               </div>
             </div>
 
-            <div className="odimgs2">
+            <div className="odimgs2" style={{ maxWidth: "350px" }}>
               <div className="odtext1c">
                 Get It Picked Up and Delivered Quick
               </div>

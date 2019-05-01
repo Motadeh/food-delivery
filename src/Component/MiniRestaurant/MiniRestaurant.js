@@ -1,6 +1,6 @@
 import { withStyles } from "@material-ui/core/styles";
 import React, { Component } from "react";
-import "./Restaurant.css";
+import "./MiniRestaurant.css";
 import * as store from "../../Assets/store.png";
 import * as takeaway from "../../Assets/take-away.png";
 import * as group from "../../Assets/group.png";
@@ -17,7 +17,7 @@ const styles = theme => ({
   }
 });
 
-class Restaurant extends Component {
+class MiniRestaurant extends Component {
   state = {};
 
   render() {
@@ -26,53 +26,9 @@ class Restaurant extends Component {
 
     return (
       <div className="reheader">
-        {/* <div className="odcontent"> */}
-        <div className="reimg">
-          <div className="reimgs">
-            <img src={store} height="70px" />
-            <div
-              style={{
-                maxWidth: "96px",
-                maxHeight: "66px",
-                marginLeft: "22px"
-              }}
-            >
-              Over 500 Restaurant
-            </div>
-          </div>
-          <div className="reimgs">
-            <img src={takeaway} height="70px" />
-            <div
-              style={{
-                maxWidth: "131px",
-                maxHeight: "44px",
-                marginLeft: "34px"
-              }}
-            >
-              Over 2000 Deliveries Made
-            </div>
-          </div>
-          <div className="reimgs">
-            <img src={group} height="70px" />
-            <div
-              style={{
-                maxWidth: "112px",
-                maxHeight: "44px",
-                marginLeft: "32.08px"
-              }}
-            >
-              Over 100 Daily Request
-            </div>
-          </div>
-        </div>
-        <div className="repickup">
-          Recommended Restaurants
-          {/* <p>On demand Delivery and</p>
-            <p style={{ textAlign: "center" }}>Restaurant Services</p> */}
-        </div>
-
+        <div className="mrpickup">Popular Restaurants</div>
         <div className="reimg2">
-          <div className="reimgs2" style={{ maxWidth: "350px" }}>
+          <div className="mrimgs2" style={{ maxWidth: "350px" }}>
             <div className="retext1a">Enter Pickup and Delivery Address</div>
             <div className="text2" style={{ maxWidth: "350px" }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -82,7 +38,7 @@ class Restaurant extends Component {
             </div>
           </div>
 
-          <div className="reimgs2">
+          <div className="mrimgs2">
             <div className="retext1b">
               Select Nearest And Preferred Dispatcher
             </div>
@@ -94,7 +50,7 @@ class Restaurant extends Component {
             </div>
           </div>
 
-          <div className="reimgs2">
+          <div className="mrimgs2">
             <div className="retext1c">Get It Picked Up and Delivered Quick</div>
             <div className="retext2" style={{ maxWidth: "350px" }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -116,4 +72,4 @@ class Restaurant extends Component {
   }
 }
 
-export default withStyles(styles)(Restaurant);
+export default withStyles(styles)(MiniRestaurant);

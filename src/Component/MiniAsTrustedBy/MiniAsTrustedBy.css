@@ -1,0 +1,15 @@
+#minias {
+  height: 70px;
+}
+
+@media screen and (max-width: 1260px) {
+  #minias {
+    height: 8vw;
+  }
+}
+
+@media screen and (width: 1024px) {
+  #minias {
+    height: 7vw;
+  }
+}

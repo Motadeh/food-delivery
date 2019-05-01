@@ -129,11 +129,8 @@ class WhatUsers extends Component {
               type="text"
               placeholder="Enter Your Email Address"
               style={{
-                width: "865px",
-                height: "90px",
                 borderRadius: "58px 0px 0px 58px",
                 marginTop: "44px",
-                fontSize: "26px",
                 color: "#AAAAAA",
                 textAlign: "center"
               }}
@@ -141,13 +138,9 @@ class WhatUsers extends Component {
             <button
               type="button"
               style={{
-                width: "355px",
-                height: "95px",
                 borderRadius: " 0px 58px 58px 0px ",
                 marginTop: "44px",
                 backgroundColor: "#5C0426",
-                // fontFamily: Montserrat,
-                fontSize: "26px",
                 color: "#FFFFFF"
               }}
             >

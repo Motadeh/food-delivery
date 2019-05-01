@@ -5,12 +5,16 @@
 .odimg {
   display: flex;
   justify-content: center;
+  width: 100vw
   /* margin: 20px; */
 }
 
 .odimg2 {
   display: flex;
   justify-content: center;
+  width: 100vw;
+  margin-left: center;
+  margin-right: center
   /* margin-top: 50px; */
 }
 
@@ -59,7 +63,7 @@
 .odtext1a {
   font-family: "Roboto Slab";
   font-size: 28px;
-  color: #5C0426;
+  color: #5c0426;
   line-height: 34px;
   margin-top: 71px;
   max-width: 233px;
@@ -68,7 +72,7 @@
 .odtext1b {
   font-family: "Roboto Slab";
   font-size: 28px;
-  color: #5C0426;
+  color: #5c0426;
   line-height: 34px;
   margin-top: 71px;
   width: 338px;
@@ -78,7 +82,7 @@
 .odtext1c {
   font-family: "Roboto Slab";
   font-size: 28px;
-  color: #5C0426;
+  color: #5c0426;
   line-height: 34px;
   margin-top: 71px;
   max-width: 270px;
@@ -89,4 +93,76 @@
   font-size: 18px;
   color: #676768;
   margin-top: 25px;
+}
+
+#driver {
+  height: 70px;
+}
+
+#place {
+  height: 70px;
+}
+
+#smartphone {
+  height: 70px;
+}
+
+@media screen and (max-width: 1023px) {
+  .odimg {
+    display: inline-block;
+    justify-content: center;
+    text-align: center
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+  }
+
+  .ondemandpickup {
+    font-size: 18px;
+    /* width: 80vw */
+  }
+  
+  .odimg2 {
+    display: inline-block;
+    justify-content: center;
+    width: 100vw
+    /* margin-top: 50px; */
+  }
+
+  .odtext1a {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .odtext1b {
+    font-size: 26px;
+    width: 100vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .odtext1c {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .odimgs2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .odimgs {
+    margin-top: 20px
+    /* text-align: center; */
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+
+  .odtext2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

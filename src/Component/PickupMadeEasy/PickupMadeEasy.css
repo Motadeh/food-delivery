@@ -1,35 +1,169 @@
-.App {
-    display: flex;
-    justify-content: center;
-}
-
 .text {
-    margin-top: 100px;
-    margin-left: 250px;
-    color: #FFFFFF;
+  margin-top: 100px;
+  margin-left: 250px;
+  color: #ffffff;
 }
 
 .deliver {
-    display: flex
+  display: flex;
+  justify-content: center;
+  background-color: #5c0426;
 }
 
 .other {
-    font-family: Lato;
-    font-size: 18px;
+  font-family: Lato;
+  font-size: 18px;
 }
 
 .pickup {
-    font-family: Montserrat;
-    font-weight: 800px;
-    font-size: 50px;
-    font-style: ExtraBold;
-}
-
-.deliver{
-    background-color: #5C0426;
+  font-family: Montserrat;
+  font-weight: 800px;
+  font-size: 50px;
+  font-style: ExtraBold;
+  line-height: 54px;
 }
 
 .available {
-    font-family: Montserrat;
-    color: #FFCF27
+  font-family: Montserrat;
+  color: #ffcf27;
+}
+
+.pickupimg {
+  align-content: center;
+}
+
+#pickupimg {
+  height: 60vh;
+}
+
+#playstore {
+  max-height: 560px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1460px) {
+  .deliver {
+    display: inline-block;
+    width: 100vw;
+  }
+
+  .text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #pickupimg {
+    height: 60vh;
+  }
+
+  .pickup {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .other {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pickupimg {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .deliver {
+    display: inline-block;
+    width: 100vw;
+  }
+
+  .text {
+    justify-content: center;
+    margin-left: 15vw;
+    margin-right: 10vw;
+  }
+
+  #pickupimg {
+    height: 35vh;
+  }
+
+  .pickup {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .other {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pickupimg {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 330px) and (max-width: 767px) {
+  .deliver {
+    display: inline-block;
+    width: 100vw;
+  }
+
+  .text {
+    justify-content: center;
+    margin-left: 10vw;
+    margin-right: 5vw;
+  }
+
+  #pickupimg {
+    height: 30vh;
+  }
+
+  .pickup {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .other {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pickupimg {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .deliver {
+    display: inline-block;
+    width: 100vw;
+  }
+
+  .text {
+    justify-content: center;
+    margin-left: 10vw;
+    margin-right: 5vw;
+  }
+
+  #pickupimg {
+    height: 30vh;
+  }
+
+  .pickup {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .other {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pickupimg {
+    display: flex;
+    justify-content: center;
+  }
 }

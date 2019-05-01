@@ -30,19 +30,19 @@ class MiniAsTrustedBy extends Component {
           <div className="astrustedby">As Trusted By</div>
           <div className="img">
             <div className="imgs">
-              <img src={spectranet} height="70px" />
+              <img src={spectranet} id='minias' />
             </div>
             <div className="imgs">
-              <img src={Bukka} height="70px" />
+              <img src={Bukka} id='minias' />
             </div>
             <div className="imgs">
-              <img src={MegaChicken} height="70px" />
+              <img src={MegaChicken} id='minias' />
             </div>
             <div className="imgs">
-              <img src={Fuud} height="70px" />
+              <img src={Fuud} id='minias' />
             </div>
             <div className="imgs">
-              <img src={ThePlace} height="70px" />
+              <img src={ThePlace} id='minias' />
             </div>
           </div>
           <div>

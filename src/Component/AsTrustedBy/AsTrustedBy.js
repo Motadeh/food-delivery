@@ -30,24 +30,23 @@ class AsTrustedBy extends Component {
           <div className="astrustedby">As Trusted By</div>
           <div className="img">
             <div className="imgs">
-              <img src={spectranet} height="70px" />
+              <img src={spectranet} id="asimg" />
             </div>
             <div className="imgs">
-              <img src={Bukka} height="70px" />
+              <img src={Bukka} id="asimg" />
             </div>
             <div className="imgs">
-              <img src={MegaChicken} height="70px" />
+              <img src={MegaChicken} id="asimg" />
             </div>
             <div className="imgs">
-              <img src={Fuud} height="70px" />
+              <img src={Fuud} id="asimg" />
             </div>
             <div className="imgs">
-              <img src={ThePlace} height="70px" />
+              <img src={ThePlace} id="asimg" />
             </div>
           </div>
           <div className="ondelivery" style={{ maxWidth: "454px" }}>
-            <p>On demand Delivery and</p>
-            <p style={{ textAlign: "center" }}>Restaurant Services</p>
+            On demand Delivery and Restaurant Services
           </div>
           <div
             className="lorem"
@@ -61,12 +60,8 @@ class AsTrustedBy extends Component {
 
           <div className="img2">
             <div className="imgs2" style={{ maxWidth: "350px" }}>
-              <div>
-                <img
-                  src={Delivery}
-                  height="158px"
-                  style={{ maxWidth: "176px" }}
-                />
+              <div className="imgss">
+                <img src={Delivery} style={{ maxWidth: "176px" }} id="asimg2" />
               </div>
               <div className="text1" style={{ maxWidth: "316px" }}>
                 Easiest Way to get your Pickup and Delivery Done
@@ -80,8 +75,8 @@ class AsTrustedBy extends Component {
             </div>
 
             <div className="imgs2">
-              <div>
-                <img src={Meal} height="158px" style={{ maxWidth: "176px" }} />
+              <div className="imgss">
+                <img src={Meal} style={{ maxWidth: "176px" }} id="asimg2" />
               </div>
               <div className="text1" style={{ maxWidth: "279px" }}>
                 Get Food Delivered to Your Doorstep Quickly
@@ -95,11 +90,11 @@ class AsTrustedBy extends Component {
             </div>
 
             <div className="imgs2">
-              <div>
+              <div className="imgss">
                 <img
                   src={Guarantee}
-                  height="158px"
                   style={{ maxWidth: "176px" }}
+                  id="asimg2"
                 />
               </div>
               <div className="text1" style={{ maxWidth: "227px" }}>

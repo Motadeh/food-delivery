@@ -1,0 +1,21 @@
+.mrpickup {
+  font-size: 30px;
+  /* font-weight: 400; */
+  font-family: "Roboto Slab";
+  color: #676768;
+  justify-content: center;
+  text-align: center;
+  margin-top: 77px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 766px;
+  line-height: 50px;
+}
+
+.mrimgs2 {
+  /* display: flex; */
+  justify-content: center;
+  /* margin: 100px; */
+  margin-top: 49px;
+  margin-right: 24px;
+}

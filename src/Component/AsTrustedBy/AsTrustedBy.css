@@ -8,12 +8,14 @@
 }
 
 .asheader {
-  justify-items: center;
+  /* justify-items: center; */
+  width: 100vw;
 }
 
 .img {
   display: flex;
   justify-content: center;
+  /* width: 100vw; */
   /* margin: 20px; */
 }
 
@@ -26,7 +28,7 @@
 .imgs {
   display: flex;
   justify-content: center;
-  margin: 70px;
+  margin: 50px;
   margin-top: 50px;
 }
 
@@ -38,19 +40,20 @@
   margin-right: 24px;
 }
 
-.content {
+/* .content {
   align-content: center;
-}
+} */
 
 .ondelivery {
   font-size: 38px;
   font-weight: 400;
   font-family: "Roboto Slab";
   color: #5c0426;
-  align-content: center;
+  text-align: center;
   margin: 20px;
   margin-right: auto;
   margin-left: auto;
+  line-height: 50px;
 }
 
 .lorem {
@@ -65,12 +68,232 @@
   font-size: 24px;
   color: #676768;
   line-height: 34px;
-  margin-top: 71px
+  margin-top: 71px;
 }
 
 .text2 {
   font-family: Lato;
   font-size: 18px;
   color: #676768;
-  margin-top: 25px
+  margin-top: 25px;
+}
+
+#asimg {
+  height: 98px;
+}
+
+#asimg2 {
+  height: 120px;
+}
+
+/* @media screen and (min-width: 1460px) and (max-width: 1478px) {
+  .imgs {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 50px;
+  }
+  #asimg {
+    height: 80px;
+  }
+} */
+
+@media screen and (min-width: 1024px) and (max-width: 1460px) {
+  #asimg {
+    height: 50px;
+  }
+
+  #asimg2 {
+    height: 70px;
+  }
+
+  .img2 {
+    margin-left: 10vw;
+  }
+
+  /* .text1 {
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text2 {
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .imgs {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 50px;
+  }
+
+  .imgss {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imgs2 {
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  } */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #asimg {
+    height: 30px;
+  }
+
+  #asimg2 {
+    height: 50px;
+  }
+
+  .img2 {
+    display: block;
+  }
+
+  .text1 {
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text2 {
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .imgs {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 50px;
+  }
+
+  .imgss {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 25vw; */
+  }
+
+  .imgs2 {
+    /* display: flex; */
+    /* align-content: center; */
+    justify-content: center;
+    /* margin: 100px; */
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 330px) and (max-width: 768px) {
+  #asimg {
+    height: 30px;
+  }
+
+  #asimg2 {
+    height: 50px;
+  }
+
+  .img2 {
+    display: block;
+  }
+
+  .text1 {
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text2 {
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .imgs {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 50px;
+  }
+
+  .imgss {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 25vw */
+  }
+
+  .imgs2 {
+    /* display: flex; */
+    /* align-content: center; */
+    justify-content: center;
+    /* margin: 100px; */
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #asimg {
+    height: 25px;
+  }
+
+  #asimg2 {
+    height: 50px;
+  }
+
+  .img2 {
+    display: block;
+  }
+
+  .text1 {
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text2 {
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .imgs {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 50px;
+  }
+
+  .imgss {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 25vw */
+  }
+
+  .imgs2 {
+    /* display: flex; */
+    /* align-content: center; */
+    justify-content: center;
+    /* margin: 100px; */
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }

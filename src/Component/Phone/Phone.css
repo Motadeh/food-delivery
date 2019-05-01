@@ -1,24 +1,78 @@
 .phone {
-    background-color: #000;
-    display: flex;
-    max-width: 100vw;
+  background-color: #000;
+  display: flex;
+  max-width: 100vw;
+  overflow: hidden;
+  max-height: 45vw;
+  /* max-width: 589px; */
 }
 
 .phonetext {
-    font-family: Montserrat;
-    font-size: 18px;
-    color: #FFFFFF;
-    margin-bottom: 50px;
-    max-width: 619px;
+  font-family: Montserrat;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 50px;
+  max-width: 619px;
 }
 
 .middle {
-    max-width: 619px;
-    min-width: 619px;
-    margin-left: 40px;
-    margin-top: 245px
+  max-width: 619px;
+  /* min-width: 619px; */
+  margin-left: 40px;
+  margin-top: 245px;
 }
 
 .phone1 {
-    margin-left: 250px;
+  margin-left: 20vw;
+}
+
+#phone {
+  height: 70vw;
+}
+
+#playstore {
+  height: 5vw;
+}
+
+#burger {
+  height: 40vw;
+}
+
+@media screen and (max-width: 1460px) {
+  .phone {
+    display: flex;
+    max-height: 55vw;
+  }
+
+  .phone1 {
+    margin-left: 10vw;
+  }
+
+  .phonetext {
+    font-size: 8px;
+    margin-bottom: 20px;
+    width: 40px;
+    max-height: 20vw;
+    overflow-y: hidden;
+  }
+
+  .middle {
+    margin-left: 20px;
+    margin-right: 10vw;
+    margin-top: 10vw;
+    /* max-width: 50px; */
+    min-width: 10px;
+  }
+
+  #phone {
+    height: 90vw;
+  }
+
+  #playstore {
+    height: 5vw;
+  }
+
+  #burger {
+    height: 50vw;
+  }
 }

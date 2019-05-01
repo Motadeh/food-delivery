@@ -1,13 +1,13 @@
 import { withStyles } from "@material-ui/core/styles";
 import React, { Component } from "react";
-import "./Deliver.css";
-import PickupMadeEasy from "../PickupMadeEasy/PickupMadeEasy";
 import AsTrustedBy from "../AsTrustedBy/AsTrustedBy";
-import Phone from "../Phone/Phone";
-import NoMatterTheSize from "../NoMatterTheSize/NoMatterTheSize";
-import MakeMoney from "../MakeMoney/MakeMoney";
-import WhatUsers from "../WhatUsers/WhatUsers";
 import DeliverFooter from "../DeliverFooter/DeliverFooter";
+import MakeMoney from "../MakeMoney/MakeMoney";
+import NoMatterTheSize from "../NoMatterTheSize/NoMatterTheSize";
+import Phone from "../Phone/Phone";
+import PickupMadeEasy from "../PickupMadeEasy/PickupMadeEasy";
+import WhatUsers from "../WhatUsers/WhatUsers";
+import "./Deliver.css";
 
 const styles = theme => ({
   root: {

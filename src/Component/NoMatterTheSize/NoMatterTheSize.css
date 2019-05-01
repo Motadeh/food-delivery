@@ -1,17 +1,27 @@
 .nomatterthesize {
-    display: flex;
-    justify-content: center;
-    font-size: 38px;
-    font-family: "Roboto Slab";
-    color: #5C0426;
-    margin-top: 61px;
+  display: flex;
+  justify-content: center;
+  font-size: 38px;
+  font-family: "Roboto Slab";
+  color: #5c0426;
+  margin-top: 61px;
 }
 
 .nomatterthesizetext {
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-    font-family: Lato;
-    color: #676768;
-    margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-family: Lato;
+  color: #676768;
+  margin-top: 35px;
+}
+
+img {
+  height: 258px;
+}
+
+@media screen and (max-width: 1460px) {
+  img {
+    height: 20vw;
+  }
 }

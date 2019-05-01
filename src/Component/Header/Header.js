@@ -5,14 +5,14 @@ import Tabs from "@material-ui/core/Tabs";
 import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import "./Header.css";
-import Deliver from "../Deliver/Deliver";
 import CourierService from "../CourierService/CourierService";
+import Deliver from "../Deliver/Deliver";
 import FoodDelivery from "../FoodDelivery/FoodDelivery";
+import "./Header.css";
 
 
 function TabContainer(props) {
-  return <Typography component="div">{props.children}</Typography>;
+  return <Typography>{props.children}</Typography>;
 }
 
 TabContainer.propTypes = {
@@ -28,7 +28,7 @@ const styles = theme => ({
 
 class Header extends Component {
   state = {
-    value: 0
+    value: 1
   };
 
   handleChange = (event, value) => {
@@ -44,16 +44,13 @@ class Header extends Component {
         <div className={classes.root}>
           <AppBar
             position="static"
-            style={{ backgroundColor: "#5C0317", alignItems: "center" }}
+            style={{ backgroundColor: "#5C0317", alignItems: "left" }}
           >
-            <Tabs value={value} onChange={this.handleChange}>
+            <Tabs value={value} onChange={this.handleChange} variant='fullWidth'>
               <Tab label="Deliver" />
               <Tab label="Courier Services" />
               <Tab label="Food Delivery" />
-              <Tab label="How it works" />
-              <Tab label="FAQs" />
               <Tab label="Sign In" />
-              <Tab label="Become A Dispatcher" />
             </Tabs>
           </AppBar>
           {value === 0 && (
@@ -68,13 +65,11 @@ class Header extends Component {
           )}
           {value === 2 && (
             <TabContainer>
-              <FoodDelivery />
+              {/* <FoodDelivery /> */}
+              cvf
             </TabContainer>
           )}
-          {value === 3 && <TabContainer>How it works</TabContainer>}
-          {value === 4 && <TabContainer>FAQs</TabContainer>}
           {value === 5 && <TabContainer>Sign In</TabContainer>}
-          {value === 6 && <TabContainer>Become A Dispatcher</TabContainer>}
         </div>
       </div>
     );

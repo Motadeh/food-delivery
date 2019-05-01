@@ -44,7 +44,7 @@ class DownloadOurApp extends Component {
               sapien eget, laoreet egestas elit.
             </div>
             <div>
-              <img src={playstore} height="80px" />
+              <img src={playstore} id='doplaystore' />
             </div>
           </div>
         </div>

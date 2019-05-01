@@ -8,6 +8,9 @@
     ),
     url("../../Assets/Mask_Group_52.png");
   height: 589px;
+  background-size: 100vw;
+  overflow: hidden;
+  background-repeat: no-repeat
   /* background-image: url("../../Assets/Mask_Group_52.png"); */
 }
 
@@ -39,16 +42,211 @@
 }
 
 .makemoneytext4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 26px;
+  color: #ffffff;
+  margin-left: 350px;
+  margin-top: 55px;
+  background-image: linear-gradient(#5c0426, #5c0317);
+  height: 70px;
+  width: 463.49px;
+  border-radius: 40px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .makemoney {
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .makemoneytext1 {
+    font-size: 5vw;
+    margin-left: 25vw;
+    padding-top: 5vw;
+  }
+
+  .makemoneytext2 {
+    font-size: 5vw;
+    margin-left: 25vw;
+    margin-top: 4vw;
+  }
+  .makemoneytext3 {
+    font-size: 2vw;
+    max-width: 50vw;
+    height: 7vw;
+    max-height: 7vw;
+    overflow: hidden;
+    margin-left: 25vw;
+    margin-top: 4vw;
+  }
+  .makemoneytext4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Montserrat;
-    font-size: 26px;
-    color: #ffffff;
-    margin-left: 350px;
-    margin-top: 55px;
-    background-image: linear-gradient(#5C0426, #5C0317);
-    height: 70px;
-    width: 463.49px;
-    border-radius: 40px
+    font-size: 3vw;
+    margin-left: 25vw;
+    margin-top: 4vw;
+    height: 5vw;
+    width: 40vw;
+    border-radius: 40px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .makemoney {
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .makemoneytext1 {
+    font-size: 5vw;
+    margin-left: 25vw;
+    padding-top: 5vw;
+  }
+
+  .makemoneytext2 {
+    font-size: 5vw;
+    margin-left: 25vw;
+    margin-top: 4vw;
+  }
+  .makemoneytext3 {
+    font-size: 3vw;
+    max-width: 50vw;
+    height: 7vw;
+    max-height: 7vw;
+    overflow: hidden;
+    margin-left: 25vw;
+    margin-top: 4vw;
+  }
+  .makemoneytext4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    margin-left: 25vw;
+    margin-top: 4vw;
+    height: 5vw;
+    width: 40vw;
+    border-radius: 40px;
+  }
+}
+
+@media screen and (min-width: 416px) and (max-width: 768px) {
+  .makemoney {
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .makemoneytext1 {
+    font-size: 5vw;
+    margin-left: 25vw;
+    padding-top: 3vw;
+  }
+
+  .makemoneytext2 {
+    font-size: 5vw;
+    margin-left: 25vw;
+    margin-top: 4vw;
+  }
+  .makemoneytext3 {
+    font-size: 3vw;
+    max-width: 50vw;
+    height: 7vw;
+    max-height: 7vw;
+    overflow: hidden;
+    margin-left: 25vw;
+    margin-top: 4vw;
+  }
+  .makemoneytext4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    margin-left: 25vw;
+    margin-top: 4vw;
+    height: 5vw;
+    width: 40vw;
+    border-radius: 40px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 415px) {
+  .makemoney {
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .makemoneytext1 {
+    font-size: 5vw;
+    margin-left: 25vw;
+    padding-top: 2vw;
+  }
+
+  .makemoneytext2 {
+    font-size: 5vw;
+    margin-left: 25vw;
+    margin-top: 2vw;
+  }
+  .makemoneytext3 {
+    font-size: 3vw;
+    max-width: 50vw;
+    height: 7vw;
+    max-height: 7vw;
+    overflow: hidden;
+    margin-left: 25vw;
+    margin-top: 2vw;
+  }
+  .makemoneytext4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    margin-left: 25vw;
+    margin-top: 2vw;
+    height: 5vw;
+    width: 40vw;
+    border-radius: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .makemoney {
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .makemoneytext1 {
+    font-size: 5vw;
+    margin-left: 25vw;
+    padding-top: 2vw;
+  }
+
+  .makemoneytext2 {
+    font-size: 5vw;
+    margin-left: 25vw;
+    margin-top: 2vw;
+  }
+  .makemoneytext3 {
+    font-size: 3vw;
+    max-width: 50vw;
+    height: 7vw;
+    max-height: 7vw;
+    overflow: hidden;
+    margin-left: 25vw;
+    margin-top: 2vw;
+  }
+  .makemoneytext4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    margin-left: 25vw;
+    margin-top: 2vh;
+    height: 5vw;
+    width: 40vw;
+    border-radius: 40px;
+  }
 }

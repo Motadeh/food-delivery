@@ -11,7 +11,7 @@ import CourierServiceHome from "../CourierServiceHome/CourierServiceHome";
 
 
 function TabContainer(props) {
-  return <Typography component="div">{props.children}</Typography>;
+  return <Typography>{props.children}</Typography>;
 }
 
 TabContainer.propTypes = {
@@ -43,9 +43,9 @@ class Header2 extends Component {
         <div className={classes.root}>
           <AppBar
             position="static"
-            style={{ backgroundColor: "#FFFFFF", color: "#5C0426", alignItems: "flex-start", paddingLeft: "230px" }}
+            style={{ backgroundColor: "#FFFFFF", color: "#5C0426", alignItems: "left" }}
           >
-            <Tabs value={value} onChange={this.handleChange}>
+            <Tabs value={value} onChange={this.handleChange} variant='fullWidth'>
               <Tab label="Home" />
               <Tab label="Payment Methods" />
               <Tab label="History" />

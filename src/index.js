@@ -7,11 +7,11 @@ import WebFont from "webfontloader";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
-WebFont.load({
-  google: {
-    families: ["Montserrat:400,800", "Roboto Slab:400", "Lato:400"]
-  }
-});
+// WebFont.load({
+//   google: {
+//     families: ["Montserrat:400,800", "Roboto Slab:400", "Lato:400"]
+//   }
+// });
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

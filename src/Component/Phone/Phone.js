@@ -29,10 +29,9 @@ class Phone extends Component {
       <div>
         <div
           className="phone"
-          style={{ maxHeight: "589px", overflowY: "hidden", overflowX: "hidden" }}
         >
           <div className="phone1">
-            <img src={phone} />
+            <img src={phone} id="phone" />
           </div>
           <div className="middle">
             <div className="phonetext">
@@ -41,12 +40,12 @@ class Phone extends Component {
               finibus. Nulla facilisi. Donec urna orci, placerat vestibulum
               sapien eget, laoreet egestas elit.
             </div>
-            <div>
-              <img src={playstore} height="80px" />
+            <div className="playstore">
+              <img src={playstore} id="playstore"/>
             </div>
           </div>
-          <div>
-            <img src={burger} />
+          <div className="burger">
+            <img src={burger} id="burger" />
           </div>
         </div>
       </div>
