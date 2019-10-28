@@ -29,40 +29,16 @@ class Restaurant extends Component {
         {/* <div className="odcontent"> */}
         <div className="reimg">
           <div className="reimgs">
-            <img src={store} height="70px" />
-            <div
-              style={{
-                maxWidth: "96px",
-                maxHeight: "66px",
-                marginLeft: "22px"
-              }}
-            >
-              Over 500 Restaurant
-            </div>
+            <img src={store} id="store" />
+            <div className="reimgstext1">Over 500 Restaurant</div>
           </div>
           <div className="reimgs">
-            <img src={takeaway} height="70px" />
-            <div
-              style={{
-                maxWidth: "131px",
-                maxHeight: "44px",
-                marginLeft: "34px"
-              }}
-            >
-              Over 2000 Deliveries Made
-            </div>
+            <img src={takeaway} id="takeaway" />
+            <div className="reimgstext2">Over 2000 Deliveries Made</div>
           </div>
           <div className="reimgs">
-            <img src={group} height="70px" />
-            <div
-              style={{
-                maxWidth: "112px",
-                maxHeight: "44px",
-                marginLeft: "32.08px"
-              }}
-            >
-              Over 100 Daily Request
-            </div>
+            <img src={group} id="group" />
+            <div className="reimgstext3">Over 100 Daily Request</div>
           </div>
         </div>
         <div className="repickup">

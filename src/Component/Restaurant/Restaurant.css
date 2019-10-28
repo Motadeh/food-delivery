@@ -1,6 +1,6 @@
 .reheader {
-    justify-items: center;
-  }
+  justify-items: center;
+}
 
 .reimg {
   display: flex;
@@ -35,8 +35,8 @@
 }
 
 .recontent {
-    align-content: center;
-  }
+  align-content: center;
+}
 
 .repickup {
   font-size: 30px;
@@ -91,4 +91,119 @@
   font-size: 18px;
   color: #676768;
   margin-top: 25px;
+}
+
+#store {
+  height: 70px;
+}
+
+#takeaway {
+  height: 70px;
+}
+
+#group {
+  height: 70px;
+}
+
+.reimgstext1 {
+  max-width: 96px;
+  max-height: 66px;
+  margin-left: 22px;
+}
+
+.reimgstext2 {
+  max-width: 131px;
+  max-height: 44px;
+  margin-left: 34px;
+}
+
+.reimgstext2 {
+  max-width: 112px;
+  max-height: 44px;
+  margin-left: 32.08px;
+}
+
+@media screen and (max-width: 1260px) {
+  /* #store {
+    height: 10vw;
+  }
+
+  #takeaway {
+    height: 10vw;
+  }
+
+  #group {
+    height: 10vw;
+  } */
+
+  .reimgs {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 70px;
+    /* margin-top: 50px; */
+    font-family: Lato;
+    font-size: 18px;
+  }
+
+  .reimg {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin: 10vw
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+  }
+
+  .repickup {
+    font-size: 18px;
+    /* width: 80vw */
+  }
+  
+  .reimg2 {
+    display: inline-block;
+    justify-content: center;
+    width: 100vw
+    /* margin-top: 50px; */
+  }
+
+  .retext1a {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .retext1b {
+    font-size: 26px;
+    width: 100vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .retext1c {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reimgs2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reimgs {
+    margin-top: 20px
+    /* text-align: center; */
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+
+  .retext2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

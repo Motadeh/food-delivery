@@ -43,10 +43,10 @@ class Header3 extends Component {
       <div className="App">
         <div className={classes.root}>
           <AppBar
-            position="static"
-            style={{ backgroundColor: "#FFFFFF", color: "#5C0426", alignItems: "flex-start", paddingLeft: "230px" }}
+             position="static"
+             style={{ backgroundColor: "#5C0317", alignItems: "left" }}
           >
-            <Tabs value={value} onChange={this.handleChange}>
+            <Tabs value={value} onChange={this.handleChange} variant='fullWidth'>
               <Tab label="Home" />
               <Tab label="Payment Methods" />
               <Tab label="My Orders" />

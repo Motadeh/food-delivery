@@ -3,3 +3,11 @@
   justify-content: center;
   background-color: #5C0426;
 }
+
+@media screen and (max-width: 1260px) {
+  .hiwimg2 {
+    display: block;
+    /* justify-content: center;
+    background-color: #5C0426; */
+  }
+}

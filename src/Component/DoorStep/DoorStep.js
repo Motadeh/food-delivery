@@ -35,55 +35,28 @@ class DoorStep extends Component {
         <div className="DoorStep">
           <div className="DoorSteptext">
             <div className="food">
-              Food Delivery Directly To Your Doorstep{" "}
+              Food Delivery Directly To Your Doorstep
               {/* <p>Pickup, Delivery</p>
               <p>and Food Ordering</p>
               <p>Made Easy</p> */}
             </div>
 
-            <div>&nbsp;</div>
-            <div>&nbsp;</div>
-
             <div className="pickupinfo">
               <input
+                id="doorstepinput1"
                 type="text"
                 placeholder="Pickup Address"
-                style={{
-                  width: "432px",
-                  height: "90px",
-                  borderRadius: "58px 0px 0px 58px",
-                  marginTop: "44px",
-                  fontSize: "26px",
-                  color: "#AAAAAA",
-                  textAlign: "center"
-                }}
               />
 
               <input
+                id="doorstepinput2"
                 type="text"
                 placeholder="Delivery Address"
-                style={{
-                  width: "432px",
-                  height: "90px",
-                  marginTop: "44px",
-                  fontSize: "26px",
-                  color: "#AAAAAA",
-                  textAlign: "center"
-                }}
               />
 
               <button
+                id="doorstepbutton"
                 type="button"
-                style={{
-                  width: "355px",
-                  height: "95px",
-                  borderRadius: " 0px 58px 58px 0px ",
-                  marginTop: "44px",
-                  backgroundColor: "#5C0426",
-                  // fontFamily: Montserrat,
-                  fontSize: "26px",
-                  color: "#FFFFFF"
-                }}
               >
                 Request BoxIt
               </button>

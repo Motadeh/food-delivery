@@ -28,7 +28,7 @@ const styles = theme => ({
 
 class Header extends Component {
   state = {
-    value: 1
+    value: 0
   };
 
   handleChange = (event, value) => {
@@ -65,8 +65,7 @@ class Header extends Component {
           )}
           {value === 2 && (
             <TabContainer>
-              {/* <FoodDelivery /> */}
-              cvf
+              <FoodDelivery />
             </TabContainer>
           )}
           {value === 5 && <TabContainer>Sign In</TabContainer>}

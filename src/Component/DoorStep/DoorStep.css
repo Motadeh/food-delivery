@@ -1,10 +1,9 @@
 .AppDoorStep {
   background-image: url("../../Assets/Mask_Group_4.png");
-  height: 550px;
-  /* max-height: 698px; */
-  /* width: 100vw; */
-  background-size: 100vh;
-  background-repeat: no-repeat
+  height: 150vw;
+  max-height: 698px;
+  background-size: 100vw;
+  background-repeat: no-repeat;
 }
 
 .DoorStep {
@@ -31,10 +30,98 @@
   max-height: 122px;
   line-height: 61px;
   margin-top: 138px;
-  color: #420000
+  color: #420000;
 }
 
 .pickupinfo {
   display: flex;
   justify-content: center;
+}
+
+#doorstepinput1 {
+  width: 432px;
+  height: 90px;
+  border-radius: 58px 0px 0px 58px;
+  margin-top: 44px;
+  font-size: 26px;
+  color: #AAAAAA;
+  text-align: center;
+}
+
+#doorstepinput2 {
+  width: 432px;
+  height: 90px;
+  margin-top: 44px;
+  font-size: 26px;
+  color: #AAAAAA;
+  text-align: center;
+}
+
+#doorstepbutton {
+  width: 355px;
+  height: 95px;
+  border-radius:  0px 58px 58px 0px ;
+  margin-top: 44px;
+  background-color: #5C0426;
+  /* font-family: Montserrat; */
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1260px) {
+  .AppDoorStep {
+    background-image: url("../../Assets/Mask_Group_4.png");
+    height: 50vw;
+    max-height: 150vw;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    /* overflow: hidden;  */
+  }
+  .food {
+    font-size: 5vw;
+    width: 60vw;
+    max-height: 122px;
+    line-height: 5vw;
+    margin-top: 7vw;
+  }
+  .pickupinfo {
+    /* font-weight: 800px; */
+    font-size: 5vw;
+    /* font-style: ExtraBold; */
+    max-width: 60vw;
+    max-height: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 5vw; */
+  }
+
+  #doorstepinput1 {
+    width: 20vw;
+    height: 5vw;
+    border-radius: 58px 0px 0px 58px;
+    margin-top: 6vw;
+    font-size: 2vw;
+    color: #AAAAAA;
+    text-align: center;
+  }
+
+  #doorstepinput2 {
+    width: 20vw;
+    height: 5vw;
+    margin-top: 6vw;
+    font-size: 2vw;
+    color: #AAAAAA;
+    text-align: center;
+  }
+
+  #doorstepbutton {
+    width: 20vw;
+    height: 5vw;
+    border-radius:  0px 58px 58px 0px ;
+    margin-top: 6vw;
+    background-color: #5C0426;
+    /* font-family: Montserrat; */
+    font-size: 2vw;
+    color: #FFFFFF;
+  }
 }
