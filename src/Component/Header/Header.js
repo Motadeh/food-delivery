@@ -5,9 +5,9 @@ import Tabs from "@material-ui/core/Tabs";
 import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import CourierService from "../CourierService/CourierService";
+import CourierServiceHome from "../CourierServiceHome/CourierServiceHome";
 import Deliver from "../Deliver/Deliver";
-import FoodDelivery from "../FoodDelivery/FoodDelivery";
+import FoodDeliveryHome from "../FoodDeliveryHome/FoodDeliveryHome";
 import "./Header.css";
 
 
@@ -50,7 +50,7 @@ class Header extends Component {
               <Tab label="Deliver" />
               <Tab label="Courier Services" />
               <Tab label="Food Delivery" />
-              <Tab label="Sign In" />
+              {/* <Tab label="Sign In" /> */}
             </Tabs>
           </AppBar>
           {value === 0 && (
@@ -60,15 +60,15 @@ class Header extends Component {
           )}
           {value === 1 && (
             <TabContainer>
-              <CourierService />
+              <CourierServiceHome />
             </TabContainer>
           )}
           {value === 2 && (
             <TabContainer>
-              <FoodDelivery />
+              <FoodDeliveryHome />
             </TabContainer>
           )}
-          {value === 5 && <TabContainer>Sign In</TabContainer>}
+          {/* {value === 5 && <TabContainer>Sign In</TabContainer>} */}
         </div>
       </div>
     );
