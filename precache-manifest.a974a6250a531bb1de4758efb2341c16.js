@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "f78ca4e031eb3314d998",
-    "url": "/food-delivery/static/css/main.635bd65d.chunk.css"
+    "revision": "6f5661600b04893930f1",
+    "url": "/food-delivery/static/css/main.c43c9628.chunk.css"
   },
   {
-    "revision": "f78ca4e031eb3314d998",
-    "url": "/food-delivery/static/js/main.f78ca4e0.chunk.js"
+    "revision": "6f5661600b04893930f1",
+    "url": "/food-delivery/static/js/main.6f566160.chunk.js"
   },
   {
     "revision": "c21f18d3edc492ff870c",
     "url": "/food-delivery/static/js/runtime~main.c21f18d3.js"
   },
   {
-    "revision": "d1a40a7765253f74dd94",
-    "url": "/food-delivery/static/js/2.d1a40a77.chunk.js"
+    "revision": "a7f390a4810fdf4cad97",
+    "url": "/food-delivery/static/js/2.a7f390a4.chunk.js"
   },
   {
     "revision": "8777696e744715e6d92698b326e504ca",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/food-delivery/static/media/Mask_Group_4.b0c0eaeb.png"
   },
   {
-    "revision": "6df802bce83e5ce1ebc6f789ae4fc1ed",
+    "revision": "6bf896896b68eb903dd8f887d8d4039e",
     "url": "/food-delivery/index.html"
   }
 ];
